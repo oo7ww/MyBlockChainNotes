@@ -15,7 +15,9 @@
   * 交易顺序的验证——顺序选择机制——mining
 
 ### 4 区块链与分布式数据库的对比
-            
+
+![compareDC](https://github.com/oo7ww/MyBlockChainNotes/blob/master/compareDC.jpg)
+
 # Part 2 以太坊虚拟机 EVM
 
 ### 1 EVM是什么，特点
