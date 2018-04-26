@@ -1,8 +1,9 @@
 # Part 1 区块链基础内容
 
 ### 1 分布式数据库的角度    
-
+//to add blockchain structure
 ### 2 交易：事务性数据库
+//pic to add block & transaction structure
 * 区块链是一个共享的事务型数据库，数据库事务的特性：_ACID_
    
     * 原子性（Atomicity )    : 事务作为一个整体被执行，包含在其中的对数据库的操作要么全部被执行，要么都不执行
@@ -11,7 +12,7 @@
     * 持久性（Durability）： 已被提交的事务对数据库的修改应该永久保存在数据库中
     
 ### 3 区块：交易的验证打包即公共账本化
-
+//mining process to add
   * 交易顺序的验证——顺序选择机制——mining
 
 ### 4 区块链与分布式数据库的对比
