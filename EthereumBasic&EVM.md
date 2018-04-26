@@ -27,8 +27,10 @@
 ### 2 账户、交易、GAS
    * 账户分类：外部账户，合约账户，EVM同等对待
    * 交易：外部账户间的交易，合约注册交易，合约执行交易，由交易的字段区分to, data/input
-     //to add comparing pic
-   * GAS：执行交易的费用
+     
+   //to add comparing pic
+   
+   * GAS：执行交易的费用
    
 ### 3 Storage, Memory, Stack & 指令集
    * Storage: 每个 account 含有的永久存储区， key-value store， 256bits-256bits的映射
