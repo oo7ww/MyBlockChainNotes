@@ -4,6 +4,8 @@
 * P2P网络中的个体在地位和功能上是平等的，天然的去中心化、分布式的。
 * 在 **P2P** 网络中并非每个节点与网络中其他节点均有通信
 
+  ![p2pnetwork](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/p2p.png)
+
 ## 分类：
 
   * 无结构化的：简单易于组建，但是在网络中查找数据效率低
