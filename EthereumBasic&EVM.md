@@ -15,6 +15,8 @@
 //mining process to add
   * 交易顺序的验证——顺序选择机制——mining
 
+ ![blockhead](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/eth_blockhead.png)
+
 ### 4 区块链与分布式数据库的对比
 
 ![compareDC](https://github.com/oo7ww/MyBlockChainNotes/blob/master/compareDC.jpg)
