@@ -16,7 +16,7 @@
   ![ethNetwork](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/eth_structure.png)
 
 ## 需求特征
-  * 网络中随时可能存在一些节点加入和离开网络的情况，但同一时间内大量新旧节点同时发生加入或离开的概率很低。
+  * 网络中随时可能存在一些节点加入和离开网络的情况，但同一时间内大量新旧节点同时发生加入或离开的概率很低。
   * 每个节点存储的数据( **block** ), 理想状态下时相同的。
 
 ## 通信过程/场景
