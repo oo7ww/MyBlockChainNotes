@@ -51,7 +51,7 @@ geth --networkid 10 --identity "TestNode" --rpc --rpcport "8381" --datadir data0
   ```js
   miner.start(1)
   ```
-  delete .ethash file to remove the previous DAGs, and then restart the miner  
+  delete **.ethash** file to remove the previous DAGs, and then restart the miner  
 
 
 ## Part 2 truffle project and use signature to deploy contracts
