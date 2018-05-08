@@ -1,5 +1,4 @@
-//solidity note
-# Solidity 语言
+# Solidity 
 
 ## 1 编译&运行环境
 
@@ -7,7 +6,7 @@
   *  **solc** 编译， 使用 geth console / web3js [部署]()至区块链上  
   *  truffle框架下完成编译部署
   *  运行环境以太坊虚拟机（**EVM**） 
-  ![solidity](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/solidity.png)
+![solidity](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/solidity.png)
 ## 2 Solidity basic
 
 * 1 EVM 
