@@ -6,9 +6,9 @@ solidity 是静态类型语言
 ## 1 编译&运行环境
 
 * Linux：
-  *  编译：[solc]()
+  *  编译：[solc](http://solidity.readthedocs.io/en/develop/installing-solidity.html)
   *  运行环境 : 以太坊虚拟机（**EVM**） 
-  ![solidity](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/solidity.png)
+  ![solidity](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/solidityV1.png)
 
 ## 2 Solidity basic
 
@@ -41,7 +41,9 @@ solidity 是静态类型语言
           * storage ：合约创建时确定，永久存储在区块上 eg. 状态变量 key-value形式
           * memory ：用于函数内部，告知EVM在运行时创建固定大小内存区域给变量使用
 
-* 3 to add:
+* 3 特殊变量&属性
+    * msg
+    * this 当前合约    
 
   抽象，继承
 
