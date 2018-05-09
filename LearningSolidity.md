@@ -45,7 +45,8 @@ solidity 一种静态类型语言
     * msg
     * this 当前合约    
 
-  抽象，继承
+* 4 对象，继承 
+* 5 to add
 
 ## 3 contract & ERC20 Token with example
 
@@ -75,6 +76,6 @@ solidity 一种静态类型语言
   * truffle框架下完成编译部署
 * 2 调用
 
-## 5 
+## 5 BEC token
 
 ### 参考文档：
