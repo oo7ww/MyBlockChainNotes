@@ -1,7 +1,7 @@
 //solidity note
 # Solidity 语言
 
-solidity 是静态类型语言
+solidity 一种静态类型语言
 
 ## 1 编译&运行环境
 
