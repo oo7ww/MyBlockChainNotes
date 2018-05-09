@@ -45,10 +45,12 @@ solidity 一种静态类型语言
     * msg
     * this 当前合约    
 
-* 4 对象，继承 
-* 5 to add
+* 4 对象，继承
+    
+* 5 **ABI**
+   
 
-## 3 contract & ERC20 Token with example
+## 3 contract & ERC20
 
 * 1 合约 contract
   * contract 是什么
