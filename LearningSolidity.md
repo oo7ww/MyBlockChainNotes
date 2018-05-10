@@ -49,7 +49,7 @@ solidity 是静态类型语言
 * 1 合约 contract : 类似于面向对象中的 class 
   * contract 结构
     * 编译器版本
-    ```sol
+    ```js
     pragma solidity ^0.4.20;
     ```
     * library: 与合约类似，目的是在一个位置仅部署一次
