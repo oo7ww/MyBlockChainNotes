@@ -181,6 +181,7 @@ solidity 是静态类型语言
 function batchTransfer(address[] _receivers, uint256 _value) public whenNotPaused returns (bool) {
     uint cnt = _receivers.length;
     uint256 amount = uint256(cnt) * _value; //未使用safemath中定义的 mul
+                                            //修正：uint256 amount = _value.mul(cnt);
     require(cnt > 0 && cnt <= 20);
     require(_value > 0 && balances[msg.sender] >= amount);
 
