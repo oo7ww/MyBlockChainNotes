@@ -175,8 +175,7 @@ solidity 是静态类型语言
   [2](https://medium.com/@jgm.orinoco/understanding-erc-20-token-contracts-a809a7310aa5)
 
 * 4 Token point，token合约的安全性：
-
-** safemath的使用
+  * safemath的使用
 [BEC合约漏洞](https://etherscan.io/address/0xc5d105e63711398af9bbff092d4b6769c82f793d#code) 
 ```js
 function batchTransfer(address[] _receivers, uint256 _value) public whenNotPaused returns (bool) {
@@ -195,7 +194,7 @@ function batchTransfer(address[] _receivers, uint256 _value) public whenNotPause
 }
 ```
 
-** ERC20 可能受到的攻击
+  * ERC20 可能受到的攻击
 
 https://docs.google.com/document/d/1YLPtQxZu1UAvO9cZ1O2RPXBbT0mooh4DYKjA_jp-RLM/edit#
 
