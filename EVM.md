@@ -12,6 +12,10 @@ Ethereum 中采用广义交易的概念，交易的执行分为内外两层：
 
 ## 2 EVM 交易（transaction）调用
 
-* EVM call create callcode delegateCall staticCall
+* call： 
+* create 
+* callcode 
+* delegateCall 
+* staticCall
 
 ## 3 合约函数调用过程
