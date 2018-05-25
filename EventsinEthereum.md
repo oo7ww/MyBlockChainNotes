@@ -61,5 +61,6 @@ contract Bomber {
 
 * web3js provider：http无法监听events
   
-  原因http与WebSocket的区别
+  原因:http与WebSocket的区别
+  
   ![httpVSwebsocket](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/httpVsWebSocket.png)
