@@ -50,6 +50,7 @@
 	    }
     }
     ```
+	
   * 出块
     
     每个agent执行 mine ,先计算出对应块难度 hash 的 agent 即可将挖矿结果返回给 worker，完成出块 
@@ -66,9 +67,63 @@
 	    }
     }
     ```
-  
-* 区块广播，插入event
-  * worker wait() 获取区块后，将区块插入本地主干链，并广播区块，发送事件通知其他节点
+
+
+* agent 挖矿结果处理
+    
+ * worker中接收 agent 挖矿计算结果的函数 wait() 循环
+
+```go
+  func (self *worker) wait() {
+	for {
+		for result := range self.recv {
+			atomic.AddInt32(&self.atWork, -1)
+
+			if result == nil {//agent 计算出块失败 returnCh nil
+				continue
+			}
+			block := result.Block
+			work := result.Work
+
+			// Update the block hash in all logs since it is now available and not when the
+			// receipt/log of individual transactions were created.
+			for _, r := range work.receipts {
+				for _, l := range r.Logs {
+					l.BlockHash = block.Hash()
+				}
+			}
+			for _, log := range work.state.Logs() {
+				log.BlockHash = block.Hash()
+			}
+			stat, err := self.chain.WriteBlockWithState(block, work.receipts, work.state)
+			if err != nil {
+				log.Error("Failed writing block to chain", "err", err)
+				continue
+			}
+			// Broadcast the block and announce chain insertion event
+			self.mux.Post(core.NewMinedBlockEvent{Block: block})
+			var (
+				events []interface{}
+				logs   = work.state.Logs()
+			)
+			events = append(events, core.ChainEvent{Block: block, Hash: block.Hash(), Logs: logs})
+			if stat == core.CanonStatTy {
+				events = append(events, core.ChainHeadEvent{Block: block})
+			}
+			self.chain.PostChainEvents(events, logs)
+
+			// Insert the block into the set of pending ones to wait for confirmations
+			self.unconfirmed.Insert(block.NumberU64(), block.Hash())
+		}
+	}
+}
+```
+	
+
+	
+ * 成功获取区块：广播，插入event
+    
+		worker wait() 获取区块后，将区块插入本地主干链，并广播区块，发送事件通知其他节点
     
     ```go
     // check if canon block and write transactions
