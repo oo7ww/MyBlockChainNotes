@@ -28,7 +28,7 @@
 * 挖矿：区块交易打包过程
   * ethereum machanism 
     
-    ![ethMachanism](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/EthMechanism.jpg)
+    ![ethMine](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/TxMine.png)
 
 * 共识算法：POW、POS、DPOS、PBFT
   * consensus
@@ -36,13 +36,13 @@
     以太坊网络中的共识是指多个节点或代理商在给定时间点就区块链状态达成一致的能力。 这与传统的共识定义密切相关，但不同于定义为个体或群体之间的一般性共     识。在这种情况下，社区必须解决在技术上（网络内）和社会上（以确保协议不分叉或断裂）达成共识的挑战。
   * POW
     
-    ![pow](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/.png)
+    ![pow](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/pow-bitcoin.png)
     工作证明是一个共识协议，认为网络中的有效区块链是计算量最大的链。这里提到的计算工作是为了将所有块添加到当前区块链而必须完成的工作。这项工作是由网     络节点完成的，工作证明在计算上有困难，但是可行的，可以在经过合理的努力之后可以实现。最终，网络将依靠提供该PoW的节点来维持区块链。
     
     在以太坊网络以及许多其他区块链网络中，获取PoW需要找到要添加到区块链的区块的哈希值。这个哈希值是通过对由块的数据和一个随机数组成的字符串进行 hash     获得的。这个哈希值必须小于某个阈值（由网络难度决定），并且一旦节点计算出产生该哈希值的随机数，相应的块将被接受并添加到区块链中。
   * POS
     
-    ![pos](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/.png)
+    ![pos](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/PoW.png)
     权益证明（PoS）是一种公链的共识算法，它依赖于验证者在网络中的经济利益。在基于工作证明（PoW）的公链（例如比特币和当前的以太坊）中，PoW算法奖励解     决密码难题的参与者以验证交易并创建新的区块（即挖矿 mine ）。在基于PoS的公共区块链（例如以太坊即将推出的Casper实施）中，一组验证者轮流在下一个区     块建议和投票，每个验证者投票的权重取决于其存款的大小（即股份）。 PoS的显著优势包括安全性，集中化风险低和高效率。
 
     一般来说，PoS算法如下所示。区块链跟踪一组验证者，任何持有区块链基础加密货币（在以太坊的情况下为ether）的人都可以通过发送一种特殊类型的交易来锁定     他们的以太币进入存款，从而成为验证者。然后通过所有当前验证者都可以参与的共识算法完成创建和同意新块的过程。
@@ -52,7 +52,7 @@
     
   * PBFT
     
-    ![PBFT](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/.png)
+    ![PBFT](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/PBFT.png)
 ## 2 ethereum & web3.js
 
 * geth 为例，ethereum 结构
