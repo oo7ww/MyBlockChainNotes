@@ -42,7 +42,7 @@
 * geth 为例，ethereum 结构
   * ethereum 结构
     
-    ![ethStructure](../Pic/EthStructure.png)
+    ![ethStructure](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/EthStructure.png)
 
 * web3.js 应用案例：转账、部署合约、event 监听
   * [转账](https://rinkeby.etherscan.io/tx/0x6d948ba3e9989579a24fef7246ddcfb364c0ac286befde3f835570fc80d83d6e)
