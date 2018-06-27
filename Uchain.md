@@ -408,3 +408,24 @@
 * ethereum random number
 
 ## 参考资料
+* ethereum 基本概念与原理
+  
+  地址生成https://kobl.one/blog/create-full-ethereum-keypair-and-address/
+  https://ethereum.stackexchange.com/questions/268/ethereum-block-architecture
+  https://lilymoana.github.io/ethereum_theory.html?from=timeline
+* web3.js
+  
+  https://web3js.readthedocs.io/en/1.0/index.html
+* ERC20详解
+  
+  https://ethfans.org/ajian1984/articles/understanding-erc-20-token-contracts
+* solidity
+
+  工具 https://remix.ethereum.org
+  文档 https://solidity.readthedocs.io/en/v0.4.23/index.html
+* BEC 漏洞分析
+  
+  https://learnblockchain.cn/2018/04/25/bec-overflow/
+* 书籍
+  
+  https://github.com/ethereumbook/ethereumbook
