@@ -8,7 +8,7 @@
   * ECDSA算法
   * ethereum地址生成过程
     
-    ![key](../Pic/key.png)
+    ![key](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/key.png)
 
     * 1 生成 private key:
         
@@ -28,7 +28,7 @@
 * 挖矿：区块交易打包过程
   * ethereum machanism 
     
-    ![ethMachanism](../Pic/EthMechanism.jpg)
+    ![ethMachanism](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/EthMechanism.jpg)
 
 * 共识算法：POW、POS、DPOS、PBFT
   * consensus
@@ -329,7 +329,7 @@
   
         原因:http与WebSocket的区别
   
-        ![httpVSwebsocket](../Pic/httpVsWebSocket.png)
+        ![httpVSwebsocket](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/httpVsWebSocket.png)
 
 ## 3 solidity & 智能合约
 
@@ -340,12 +340,12 @@
     * 编译：[solc](http://solidity.readthedocs.io/en/develop/installing-solidity.html)
     * 运行环境 : 以太坊虚拟机（**EVM**） 
     
-      ![solidity](../Pic/solidityV1.png)
+      ![solidity](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/solidityV1.png)
 
   * 2 Solidity basic
     * 1 EVM ：bytecode的运行时环境 
   
-      ![evm](../Pic/EVM.png)
+      ![evm](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/EVM.png)
 
     * 2 类型 
       * 值类型
