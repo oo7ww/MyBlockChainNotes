@@ -48,7 +48,8 @@
     一般来说，PoS算法如下所示。区块链跟踪一组验证者，任何持有区块链基础加密货币（在以太坊的情况下为ether）的人都可以通过发送一种特殊类型的交易来锁定     他们的以太币进入存款，从而成为验证者。然后通过所有当前验证者都可以参与的共识算法完成创建和同意新块的过程。
   * DPOS
     
-    高效的人民代表制度
+    ![DPOS](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/PoSvsDPoS.jpeg)
+    高效的 "人民代表" 制度 
     
   * PBFT
     
