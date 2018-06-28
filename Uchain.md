@@ -8,7 +8,7 @@
   
   每个SHA3-256 哈希值包含 64 个十六进制字符
   
-  SHA-256("yank") = 45F1B9FC8FD5F760A2134289579DF920AA55830F2A23DCF50D34E16C1292D7E0
+  SHA3-256("yank") = 45F1B9FC8FD5F760A2134289579DF920AA55830F2A23DCF50D34E16C1292D7E0
   
   SHA3-256("") = a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a
   
@@ -29,8 +29,6 @@
     * 3 public key --> account address：
 
       对 **public key** 使用 Keccak-256 算法后， 截取后 **20 bytes** 作为账户地址
-  
-  * Keccak-256 != SHA-3
     
 
 * 挖矿：区块交易打包过程
@@ -440,6 +438,7 @@
 ## 4 Misc
 
 * ethereum private chain [搭建](http://blog.luoyuanhang.com/2018/04/18/set-up-eth-private-chain-for-development/)
+* ethereum [哈希函数](https://ethereum.stackexchange.com/questions/550/which-cryptographic-hash-function-does-ethereum-use)
 * EVM [basic](https://abelsu7.top/2018/02/28/ethereum-virtual-machine/) 
 * ethereum random number [RNG](https://medium.com/@promentol/lottery-smart-contract-can-we-generate-random-numbers-in-solidity-4f586a152b27)
 
