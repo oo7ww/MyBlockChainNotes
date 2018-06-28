@@ -2,7 +2,11 @@
 
 ## 1 区块链基本概念&原理
 
-* 哈希算法：sha256/keccak256
+* 哈希算法：SHA3-256/Keccak256
+  
+  SHA-3，之前名为Keccak算法，是一个加密杂凑算法。
+  
+  SHA3-256("") = a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a
   
 * 非对称加密：address & privatekey
   * ECDSA算法
