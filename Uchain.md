@@ -49,6 +49,7 @@
   * DPOS
     
     ![DPOS](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/PoSvsDPoS.jpeg)
+    
     高效的 "人民代表" 制度 
     
   * PBFT
