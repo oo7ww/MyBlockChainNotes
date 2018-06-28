@@ -439,9 +439,9 @@
 
 ## 4 Misc
 
-* ethereum private chain ： genesis.json
-* EVM basic
-* ethereum random number
+* ethereum private chain [搭建](http://blog.luoyuanhang.com/2018/04/18/set-up-eth-private-chain-for-development/)
+* EVM [basic](https://abelsu7.top/2018/02/28/ethereum-virtual-machine/) 
+* ethereum random number [RNG](https://medium.com/@promentol/lottery-smart-contract-can-we-generate-random-numbers-in-solidity-4f586a152b27)
 
 ## 参考资料
 * ethereum 基本概念与原理
