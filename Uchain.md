@@ -9,7 +9,7 @@
   SHA3-256("") = a7ffc6f8bf1ed76651c14756a061d662f580ff4de43b49fa82d80a4b80f8434a
   
 * 非对称加密：address & privatekey
-  * ECDSA算法
+
   * ethereum地址生成过程
     
     ![key](https://github.com/oo7ww/MyBlockChainNotes/blob/master/Pic/key.png)
