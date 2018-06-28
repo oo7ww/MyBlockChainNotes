@@ -164,7 +164,7 @@
     const fs = require('fs');
 
     let address = '0x0D9FdaeFa06F24190609691c3039a5629dceDC97';
-    let privateKey = '0e7b5a57d30fca235f7c076b839bcad0b5585474fba40759420989c3586fe471';
+    let privateKey = '0x0e7b5a57d30fca235f7c076b839bcad0b5585474fba40759420989c3586fe471'; // prefix '0x'
     //testnet
     const provider = new Web3(new Web3.providers.HttpProvider("https://rinkeby.infura.io/kIC5FaNWTL1xVwpeU3o1"));
 
